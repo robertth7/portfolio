@@ -4,29 +4,96 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylessheet" href="./assets/css/style.css" />
-        <title>robertth7 Webdev</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Robert Hurtado</title>
     </head>
 
     <body>
         <!-- navigation -->
         <header>
-            <h1>
-                <a href="/">Robert Hurtado's Webdeveloping Page</a>
-            </h1>
+            <div>
+                <h1>
+                    <a href="#Robert Hurtado">Robert Hurtado</a>
+                </h1>
+                <h2>
+                    <h2 class="header-title">Web Developer</h2>
+                </h2>
+            </div>
             <nav>
                 <!-- Unordered list element -->
                 <ul>
                     <li>
-                        <a href="#bio">Bio</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li>
-                        <a href="#projects">Projects</a>
+                        <a href="#project">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
 
-        
+        <!-- BIO -->
+        <section id="about" class="intro">
+            <div class="flex-row">
+                <p>I'm Robert Hurtado -- a Frontend and Backend Web developer. I currently work for ebay. At ebay, I am in charge of all the front end developing and making sure everything is running smoothly for consumers. </p>
+            </div>
+        </section>
+        <!-- End BIO -->
+
+        <!-- Projects -->
+        <section id="project" class="nav-heading">
+            <div class="flex-row">
+                <h2 class="header-title">Projects</h2>
+            </div>
+            <div class="images">
+                <div class="pro-img">
+                    <img src="./assets/images/coding1.jpeg" alt="" />
+                </div>
+                <div class="pro-img">
+                    <img src="./assets/images/ebayimg.jpeg" alt="" />
+                </div>
+            </div>
+        </section>
+        <!-- End of Projects -->
+
+        <!-- Contact Info -->
+        <section id="reach-out" class="nav-heading">
+            <div class="flex-row">
+                <h2 id="contact" class="header-title">Reach Out</h2>
+            </div>
+            <div class="contact-info">
+                <div>
+                    <h3>My Contact Info</h3>
+                    <p>Are you looking to hire me for a job?
+                        <br />
+                        Contact me either through phone or email!
+                    </p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Contact Me</h3>
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
+
+                    <button type="submit">Submit</button>
+                </form>
+                <h3>Or send me an email @
+                    <br />
+                    roberth.267@gmail.com
+                </h3>
+            </div>
+
+
+            <footer>
+                <h2>Made by Robert Hurtado.</h2>
+            </footer>
+
+        </section>
+
+
     </body>
 </html>
