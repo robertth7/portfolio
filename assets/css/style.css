@@ -25,6 +25,10 @@ header {
 header a {
     text-decoration: none;
     color: black;
+    font-weight: lighter;
+    font: 300 45px 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
 }
 
 header h1 {
@@ -40,6 +44,8 @@ header h1 {
     color: black;
     font-size: 20px;
     font-weight: lighter;
+    font: 300 25px 'Oswald', sans-serif;
+
 }
 
 header nav {
@@ -62,10 +68,16 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: green;
+    background: #bbb;
     color: beige;
     border-radius: 15px;
     text-shadow: none;
+}
+
+.project-title {
+    font: 300 60px 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
 }
 
 .intro {
@@ -98,7 +110,7 @@ header nav ul li a:hover {
 }
 
 .nav-heading h2 {
-    font-size: 30px;
+    /* font-size: 30px; */
     text-align: center;
     margin: 0 auto 35px auto;
     padding-top: 10px;
