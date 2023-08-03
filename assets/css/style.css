@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
     background-color: beige;
 }
@@ -182,10 +182,16 @@ footer h2 {
 
 /* Left contact page */
 .form-horizontal {
-    /*float: left;*/
+    /* float: left; */
     max-width: 400px;
     font-family: 'Lato';
     font-weight: 400;
+}
+
+.form-control {
+    width: 100%;
+    border-radius: 3px;
+    margin: 1px;
 }
 
 .form-control, textarea {
@@ -193,6 +199,7 @@ footer h2 {
     background-color: #000;
     color: #fff;
     letter-spacing: 1px;
+    font-family: 'Lato';
 }
 
 .send-button {
@@ -240,28 +247,28 @@ footer h2 {
 .contact-text {
     font: 300 18px 'Lato', sans-serif;
     letter-spacing: 1.9px;
-    color: #bbb;
+    color: black;
 }
 
 .place {
-    margin-left: 62px;
+    margin-left: 52px;
 }
 
 .phone {
-    margin-left: 56px;
+    margin-left: 52px;
 }
 
 .gmail {
-    margin-left: 53px;
+    margin-left: 52px;
 }
 
 .contact-text a {
-    color: #bbb;
+    color: black;
     text-decoration: none;
     transition-duration: 0.2s;
 }
 
 .contact-text a:hover {
-    color: black;
+    color: #bbb;
     text-decoration: none;
 }
