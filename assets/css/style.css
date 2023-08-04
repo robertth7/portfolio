@@ -2,7 +2,7 @@
     margin: 0;
     /* padding: 0; */
     box-sizing: border-box;
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 body {
@@ -11,6 +11,7 @@ body {
     margin: 0;
     padding: 0;
     padding-bottom: 100px;
+    background-color: beige;
 }
 
 header {
@@ -145,6 +146,7 @@ footer h2 {
     display: flex;
     justify-content: flex-start;
     padding-left: 20px;
+    color: #bbb;
 }
 
 .contact-form {
@@ -230,9 +232,10 @@ footer h2 {
 
 .send-text {
     display: block;
-    margin-top: 10px;
+    margin-top: 8px;
     font: 700 12px 'Lato', sans-serif;
     letter-spacing: 2px;
+    margin-left: -30px;
 }
 
 .alt-send-button:hover {
@@ -283,4 +286,29 @@ footer h2 {
 .contact-text a:hover {
     color: #bbb;
     text-decoration: none;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+        position: relative;
+    }
+
+    header nav ul {
+        justify-content: center;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    header nav ul li a {
+        font-size: 15px;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768) {
+    header a {
+        color: red;
+    }
 }
