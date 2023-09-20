@@ -4,130 +4,110 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Robert Hurtado</title>
     </head>
+    <header>
+        <div>
+            <h1>
+                <a href="#Robert Hurtado">Robert Hurtado</a>
+            </h1>
+            <h2>
+                <h2 class="header-title">Fullstack Web Developer</h2>
+            </h2>
+        </div>
+        <!-- <div class="media">
+            <ul>
+                <li>GitHub</li>
+            </ul>
+
+        </div> -->
+        <nav class="nav justify-content-center">
+            <!-- Unordered list element -->
+            <ul>
+                <li class="nav-item">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#project">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <body>
         <!-- navigation -->
-        <header>
-            <div>
-                <h1>
-                    <a href="#Robert Hurtado">Robert Hurtado</a>
-                </h1>
-                <h2>
-                    <h2 class="header-title">Web Developer</h2>
-                </h2>
-            </div>
-            <nav>
-                <!-- Unordered list element -->
-                <ul>
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#project">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
 
         <!-- BIO -->
         <section id="about" class="intro">
             <div class="flex-row">
-                <p>I'm Robert Hurtado -- a Frontend and Backend Web developer. I currently work for ebay. At ebay, I am in charge of all the front end developing and making sure everything is running smoothly for consumers. </p>
+                <p>Hi, my name is Robert Hurtado -- a Fullstack Web Developer. Welcome to my webpage. I am currently looking for work as a Fullstack Developer. I am able to work as a freelance developer as well. </p>
             </div>
         </section>
         <!-- End BIO -->
+
+        <!-- Links to GitHub, LinkedIn, as well as email and phone. And PDF of resume.   -->
 
         <!-- Projects -->
         <section id="project" class="nav-heading">
             <div class="flex-row">
                 <h2 class="project-title">Projects</h2>
             </div>
-            <div class="images">
-                <div class="pro-img">
-                    <img src="./assets/images/coding1.jpeg" alt="" />
+            <div class="card-group">
+                <div class="card">
+                        <iframe class="card-img-top" src="https://robertth7.github.io/traffic-jam-webcams/"></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">Traffic Webcams</h5>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://robertth7.github.io/traffic-jam-webcams/" class="card-link">Web Link</a>
+                        </div>
                 </div>
-                <div class="pro-img">
-                    <img src="./assets/images/ebayimg.jpeg" alt="" />
+                <div class="card">
+                    <iframe class="card-img-top" src="https://robertth7.github.io/running-buddy/"></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Running Buddy</h5>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://robertth7.github.io/running-buddy/" class="card-link">Web Link</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe class="card-img-top" src="https://robertth7.github.io/git-it-done/"></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Git It Done</h5>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://robertth7.github.io/git-it-done/" class="card-link">Web Link</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <iframe class="card-img-top" src="https://robertth7.github.io/taskmaster-pro/"></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Taskmaster Pro</h5>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://robertth7.github.io/taskmaster-pro/" class="card-link">Web Link</a>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- End of Projects -->
 
         <!-- Contact Info -->
-        <section id="contact">
-            <h1 class="section-header">Contact</h1>
-            <div class="contact-wrapper">
-                
-                <!-- Left contact page -->
-                <form id="contact-form" class="form-horizontal" role="form">
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="cl-sm-23">
-                            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
-                        </div>
-                    </div>
-                    
-                    <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-
-                    <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-                        <div class="alt-send-button">
-                            <i class="fa fa-paper-plane"></i>
-                            <span class="send-text">SEND</span>
-                        </div>
-                    </button>
-                </form>
-
-                <!-- End Left contact page -->
-
-                <div class="direct-contact-container">
-                    <ul class="contact-list">
-                        <li class="list-item">
-                            <i class="fa fa-map-marker fa-2x">
-                                <span class="contact-text place">Laredo, Texas</span>
-                            </i>
-                        </li>
-
-                        <li class="list-item">
-                            <i class="fa fa-phone fa-2x">
-                                <span class="contact-text phone">
-                                    <a href="tel:956-645-2998" title="Give me a call">956-645-2998</a>
-                                </span>
-                            </i>
-                        </li>
-
-                        <li class="list-item">
-                            <i class="fa fa-envelope fa-2x">
-                                <span class="contact-text gmail">
-                                    <a href="mailto:#" title="Send me an email">rhurtado.267@gmail.com</a>
-                                </span>
-                            </i>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-           
-
-            
-        </section>
+        
 
         <footer>
             <h2>Made by Robert Hurtado.</h2>
         </footer>
         
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
     </body>
 </html>
