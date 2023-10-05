@@ -5,14 +5,15 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Teko&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Robert Hurtado</title>
     </head>
     <header>
         <div>
-            <h1>
-                <a href="#Robert Hurtado">Robert Hurtado</a>
-            </h1>
+            <h1>Robert Hurtado</h1>
             <h2>
                 <h2 class="header-title">Fullstack Web Developer</h2>
             </h2>
@@ -56,7 +57,7 @@
                 <h2 class="project-title">Contact</h2>
             </div>
         </div>
-        <div class="card-deck justify-content-center">
+        <div class="card-deck justify-content-center text-center m-2">
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                   <div class="col-md-4">
@@ -66,7 +67,7 @@
                     <div class="card-body">
                       <h5 class="card-title">GitHub</h5>
                       <p class="card-text">Below, you will be able to click on the link to my github profile where you will be able to see all my repositories and collaborations.</p>
-                      <a href="https://github.com/robertth7" class="strethced-link">My GitHub</a>
+                      <a href="https://github.com/robertth7" class="btn btn-primary">My GitHub</a>
                       <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                     </div>
                   </div>
@@ -81,7 +82,7 @@
                     <div class="card-body">
                       <h5 class="card-title">LinkedIn</h5>
                       <p class="card-text">Below, you will be able to click on the link to my LinkedIn profile where you will be able to see all my collaborations.</p>
-                      <a href="https://github.com/robertth7">My LinkedIn</a>
+                      <a href="https://github.com/robertth7" class="btn btn-primary">My LinkedIn</a>
                       <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                     </div>
                   </div>
@@ -96,45 +97,41 @@
             <div class="flex-row">
                 <h2 class="project-title">Projects</h2>
             </div>
-            <div class="card-group">
+            <div class="card-deck m-2">
                 <div class="card">
-                        <iframe class="card-img-top" src="https://robertth7.github.io/traffic-jam-webcams/"></iframe>
-                        <div class="card-body">
+                        <iframe class="card-img-top" src="./assets/images/video-icon.svg"></iframe>
+                        <div class="card-body text-center">
                             <h5 class="card-title">Traffic Webcams</h5>
-                        </div>
-                        <div class="card-body">
-                            <p>Traffic Webcams is an app that i've created with the purpose of aiding drivers know where there might be congestion of vehicles.</p>
-                            <a href="https://robertth7.github.io/traffic-jam-webcams/" class="card-link">Web Link</a>
+                            <p class="card-text">Traffic Webcams is an app that i've created with the purpose of aiding drivers know where there might be congestion of vehicles.</p>
+                            <a href="https://robertth7.github.io/traffic-jam-webcams/" class="btn btn-primary">Go Live</a>
+                            <a href="https://github.com/robertth7/traffic-jam-webcams" class="btn btn-primary">See code</a>
                         </div>
                 </div>
                 <div class="card">
-                    <iframe class="card-img-top" src="https://robertth7.github.io/running-buddy/"></iframe>
-                    <div class="card-body">
+                    <iframe class="card-img-top" src="./assets/images/person-running-icon.svg"></iframe>
+                    <div class="card-body text-center">
                         <h5 class="card-title">Run Buddy</h5>
-                    </div>
-                    <div class="card-body">
                         <p>Run Buddy is a website that helps people looking to better themselves physically by linking them up with a personal trainer to achieve their fitness goals.</p>
-                        <a href="https://robertth7.github.io/running-buddy/" class="card-link">Web Link</a>
+                        <a href="https://robertth7.github.io/running-buddy/" class="btn btn-primary">See Live</a>
+                        <a href="https://github.com/robertth7/running-buddy" class="btn btn-primary">See code</a>
                     </div>
                 </div>
                 <div class="card">
-                    <iframe class="card-img-top" src="https://robertth7.github.io/git-it-done/"></iframe>
-                    <div class="card-body">
+                    <iframe class="card-img-top" src="./assets/images/github-icon.svg"></iframe>
+                    <div class="card-body text-center">
                         <h5 class="card-title">Git It Done</h5>
-                    </div>
-                    <div class="card-body">
                         <p>Git It Done is an app that allows web developers, like myself, search and contribute to open source projects on the GitHub community.</p>
-                        <a href="https://robertth7.github.io/git-it-done/" class="card-link">Web Link</a>
+                        <a href="https://robertth7.github.io/git-it-done/" class="btn btn-primary">Web Link</a>
+                        <a href="https://github.com/robertth7/git-it-done" class="btn btn-primary">See code</a>
                     </div>
                 </div>
                 <div class="card">
-                    <iframe class="card-img-top" src="https://robertth7.github.io/taskmaster-pro/"></iframe>
-                    <div class="card-body">
+                    <iframe class="card-img-top" src="./assets/images/list-check-icon.svg"></iframe>
+                    <div class="card-body text-center">
                         <h5 class="card-title">Taskmaster Pro</h5>
-                    </div>
-                    <div class="card-body">
                         <p>Taskmaster Pro is an application that allows users to create and track progression of tasks.</p>
-                        <a href="https://robertth7.github.io/taskmaster-pro/" class="card-link">Web Link</a>
+                        <a href="https://robertth7.github.io/taskmaster-pro/" class="btn btn-primary">Web Link</a>
+                        <a href="https://github.com/robertth7/taskmaster-pro" class="btn btn-primary">See code</a>
                     </div>
                 </div>
             </div>
@@ -144,8 +141,8 @@
         <!-- Contact Info -->
         
 
-        <footer>
-            <h2>Made by Robert Hurtado.</h2>
+        <footer class="container text-center py-3">
+            <h3 class="text-dark">2023 by Robert Hurtado</h3>
         </footer>
         
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
